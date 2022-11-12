@@ -333,7 +333,8 @@ class Automation():
 def Check_Do_Updates():
     is_updated = version_control.Is_Update_Available()
     if is_updated:
-        break
+        print("Your version is updated.Opening the program...")
+        time.sleep(1)
     else:
         print(Fore.RED+"An update available.Do you want to download and setup?(Y/N)")
         answer = input(Fore.YELLOW+"Make an update?(Y/N) :")
