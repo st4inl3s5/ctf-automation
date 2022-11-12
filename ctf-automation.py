@@ -341,6 +341,7 @@ def Check_Do_Updates():
         if answer == "Y" or answer == "y":
             version_control.Update()
             print(Fore.BLUE+"Update completed successfuly.You can use updated_ctf-automation file.")
+            exit()
         elif answer == "N" or answer == "n":
             print(Fore.GREEN+"ctf-automation won't be updated.The program starting...")
             time.sleep(1)
