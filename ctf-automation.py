@@ -331,7 +331,7 @@ class Automation():
 
 
 def Check_Do_Updates():
-    is_updated = version_control.Is_Update_Available()
+    is_updated = version_control.Is_Update_Avaliable()
     if is_updated:
         print("Your version is updated.Opening the program...")
         time.sleep(1)
